@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+:root{
+    --back-grapper: rgba(0, 0, 0, 0.438);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+    color: white;
+    background-size: cover;
+}
+
+
+#grapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#container{
+    padding: 2rem;
+    background-color: var(--back-grapper);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0 0 2px #000;
+}
+
+.dateM,
+.temp,
+.windset,
+.watH,
+.minmax{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.izq{
+    margin-right: 0.5rem;
+}
+
+#searcher{
+    margin-bottom: 1rem;
+    padding: 0.2rem;
+}
+
+#country{
+    margin: 0.75rem 0;
+    text-decoration: underline;
+}
+
