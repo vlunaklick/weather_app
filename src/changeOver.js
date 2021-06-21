@@ -30,8 +30,6 @@ export default function(data){
     } else {
         body.style.backgroundImage = `url('images/amanecer.jpg')`;
     }
-
-    console.log(data)
 }
 
 function mayus(cont){
