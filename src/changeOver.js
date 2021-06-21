@@ -9,8 +9,6 @@ export default function(data){
     let hour = document.getElementById('hour');
     let fecha = document.getElementById('fecha');
 
-    let time = new Date((data.dt) * 1000);
-
     let body = document.querySelector('body');
 
     countryTit.innerHTML = `${data.name}, ${mayus((data.sys.country).toLowerCase())}`;
