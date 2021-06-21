@@ -4,10 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8f8817d5ec.js" crossorigin="anonymous"></script>
     <title>Weather App</title>
-    
 </head>
 <body>
+    <div id="grapper">
+        <header>
+            <nav>
+                <input id="searcher" type="text" placeholder="Search a place">
+            </nav>
+        </header>
+        <div id="container">
+            <div class="topH">
+                <div class="dateM">
+                    <p id="fecha" class="izq"></p>
+                    <p id="hour"></p>
+                </div>
+                <h1 id="country"></h1>
+                <p id="descSky"></p>
+            </div>
+
+            <div class="temp">
+                <i class="fas fa-thermometer-half izq"></i>
+                <p id="temperature"></p>
+            </div>
+            
+
+            <div class="windset">
+                <i class="fas fa-wind izq"></i>
+                <p id="wind"></p>
+            </div>
+            
+            <div class="watH">
+                <i class="fas fa-water izq"></i>
+                <p id="humidity"></p>
+            </div>
+
+            <div class="minmax">
+                <p id="minT" class="izq"></p>
+                <p id="maxT"></p>
+            </div>
+        </div>
+    </div>
     
 
 
