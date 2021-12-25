@@ -9,48 +9,44 @@
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 </head>
 <body>
-    <div id="grapper">
-        <header>
-            <nav>
-                <input id="searcher" type="text" placeholder="Search a place">
-            </nav>
-        </header>
+    <main id="grapper">
+        <form class="former" onsubmit="return false;">
+            <input id="searcher" type="text" placeholder=" ">
+            <label id="labelSearcher" for="searcher" class="labelSearcher">Place</label>
+        </form>
         <div id="container">
             <div class="topH">
                 <div class="dateM">
-                    <p id="fecha" class="izq"></p>
-                    <p id="hour"></p>
+                    <p id="fecha" class="izq fuente"></p>
+                    <p id="hour" class="fuente"></p>
                 </div>
                 <h1 id="country"></h1>
-                <p id="descSky"></p>
+                <p id="descSky" class="fuente"></p>
             </div>
 
             <div class="temp">
                 <i class="fas fa-thermometer-half izq"></i>
-                <p id="temperature"></p>
+                <p id="temperature" class="fuente"></p>
             </div>
             
 
             <div class="windset">
                 <i class="fas fa-wind izq"></i>
-                <p id="wind"></p>
+                <p id="wind" class="fuente"></p>
             </div>
             
             <div class="watH">
                 <i class="fas fa-water izq"></i>
-                <p id="humidity"></p>
+                <p id="humidity" class="fuente"></p>
             </div>
 
             <div class="minmax">
-                <p id="minT" class="izq"></p>
-                <p id="maxT"></p>
+                <p id="minT" class="izq fuente"></p>
+                <p id="maxT" class="fuente"></p>
             </div>
         </div>
-    </div>
+    </main>
     
-
-
-
     <script src="main.js"></script>
 </body>
 </html>
