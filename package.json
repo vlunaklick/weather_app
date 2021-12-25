@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack --mode production --watch",
     "dev": "webpack --mode development --watch",
-    "test": "test"
+    "test": "test",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,7 @@
   "devDependencies": {
     "css-loader": "5.2.6",
     "file-loader": "6.2.0",
+    "gh-pages": "^3.2.3",
     "style-loader": "2.0.0",
     "webpack": "5.39.1",
     "webpack-cli": "4.7.2"
