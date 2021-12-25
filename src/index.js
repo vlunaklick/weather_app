@@ -22,7 +22,7 @@ async function searchWeather(country) {
 searchWeather('Argentina')
 
 searcher.addEventListener('change', function (e) {
-	searchWeather(e.originalTarget.value)
+	searchWeather(e.target.value)
 })
 
 searcher.addEventListener('focus', function (e) {
